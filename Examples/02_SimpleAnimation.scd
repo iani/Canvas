@@ -18,7 +18,6 @@ r = {
 			c draw: Ngon(i, 40 - (i * 2));
 			0.1.wait;
 		};
-		Protate(0.1)
 	}
 }.fork(AppClock);
 //: Introduce rotation at the end of each polygon series
